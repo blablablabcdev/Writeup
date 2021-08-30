@@ -3,7 +3,9 @@
 ## WriteUp
 ### NO TRESSPASSING (Misc 3) 
 #### Description du challenge
-...
+
+![unnamed](https://user-images.githubusercontent.com/61598050/131391184-44fc8dc3-1099-4044-8156-de89ef9da5d6.jpg)
+
 #### Résolution du challenge
 Un dossier partagé SMB est accessible en anonyme sur le port 4012 de la machine steakhouse4.brb.
 
@@ -161,6 +163,8 @@ DC01$::POUDLARD:16DA160FE8BD89F300000000000000000000000000000000:530A961BE2E944D
 ```
 Après avoir formaté le hash ```
 DC01$::POUDLARD:ADC7DD7D12BA11BF366861D1B60C21F24D22E5CFAB9C7195:ADC7DD7D12BA11BF366861D1B60C21F24D22E5CFAB9C7195:1122334455667788``` au format attendu par https://crack.sh/get-cracking/ : ``` NTHASH:ADC7DD7D12BA11BF366861D1B60C21F24D22E5CFAB9C7195 ``` , il est alors possible de récupérer le nt associé au compte machine DC01 (Key):
+
+![hash](https://user-images.githubusercontent.com/61598050/131391646-1d4f92f7-af3e-455a-ba8d-2e02dcd0c694.png)
 
 
 Flag : brb{0f296435517108c59b02c7d6313663e9}
